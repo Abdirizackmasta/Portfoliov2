@@ -1,4 +1,22 @@
 @import "../../styles/contants.scss";
+.slider :global {
+  .slick-list {
+    margin: 0 -7px;
+    box-sizing: initial;
+    padding: 80px 0px;
+    overflow-y: visible;
+    & .slick-slide > div {
+      padding: 0 20px;
+    }
+    & .slick-slide.slick-active.slick-current + .slick-slide {
+      @media (min-width: $lg) {
+        transition: all 1000ms ease-out;
+        scale: 1.1;
+        transform: translateY(-30px);
+      }
+    }
+  }
+}
 
 .project {
   display: flex;
@@ -21,9 +39,4 @@
   align-items: flex-end;
   flex-wrap: wrap;
   margin-bottom: 27px;
-  > :nth-child(2) {
-    text-decoration: underline;
-    color: orange;
-    cursor: pointer;
-  }
 }

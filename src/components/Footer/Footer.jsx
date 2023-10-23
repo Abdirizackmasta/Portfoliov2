@@ -26,7 +26,7 @@ const Footer = () => {
             amazing together.
           </span>
           <span className="primaryText">
-            Start by{" "}
+            Start by
             <a href="mailto:abdirizackissack2018@gmail.com">saying hi</a>
           </span>
         </div>
@@ -37,27 +37,32 @@ const Footer = () => {
             <ul className="flexCenter">
               <li>
                 <a href="https://wa.me/+254719455494">
-                  <WhatsAppIcon />
+                  WhatsApp
+                  {/* <WhatsAppIcon /> */}
                 </a>
               </li>
               <li>
                 <a href="https://www.facebook.com/abdirizack.issacksiyat">
-                  <FacebookIcon />
+                  Facebook
+                  {/* <FacebookIcon /> */}
                 </a>
               </li>
               <li>
                 <a href="https://www.instagram.com/abdulrazaq_masta/">
-                  <InstagramIcon />
+                  {/* <InstagramIcon /> */}
+                  Instagram
                 </a>
               </li>
               <li>
                 <a href="https://twitter.com/ibnu_isxaq">
-                  <TwitterIcon />
+                  Twitter
+                  {/* <TwitterIcon /> */}
                 </a>
               </li>
               <li>
                 <a href="https://github.com/Abdirizackmasta">
-                  <GitHubIcon />
+                  Github
+                  {/* <GitHubIcon /> */}
                 </a>
               </li>
             </ul>
@@ -67,7 +72,7 @@ const Footer = () => {
         <div className={css.right}>
           <div className={css.info}>
             <span className="secondaryText">Information</span>
-            <p>145 New York, FL 5467, USA</p>
+            <p>Nairobi, Easteligh, 12th Street, Kenya</p>
           </div>
           <ul className={css.menu}>
             <li>

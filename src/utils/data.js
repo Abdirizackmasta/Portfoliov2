@@ -101,6 +101,43 @@ export const comments = [
     img: "./people2.png",
   },
 ];
+export const myProjects = [
+  {
+    link: "https://shoes-shopping-site.netlify.app/",
+    projectName: "E-commerce shoes shop",
+    image: "./e-commerce.png",
+  },
+  {
+    link: "https://abdirizackmasta.github.io/bank-app/",
+    projectName: "Bank App",
+    image: "./bank.jpg",
+  },
+  {
+    link: "https://abdirizackmasta.github.io/a-bank-website//",
+    projectName: "Bank website",
+    image: "./bank-website.png",
+  },
+  {
+    link: "https://restaurant-v4d.pages.dev/",
+    projectName: "Restaurant website",
+    image: "./restaurant.jpg",
+  },
+  {
+    link: "https://budgetting-app.pages.dev/",
+    projectName: "Budgetting App",
+    image: "./budgetting.png",
+  },
+  {
+    link: "https://real-estate-7p9.pages.dev/",
+    projectName: "Real state",
+    image: "./realstate.png",
+  },
+  {
+    link: "https://abdirizackmasta.github.io/a-ludo-game/",
+    projectName: "Ludo game",
+    image: "./ludo.png",
+  },
+];
 
 export const sliderSettings = {
   dots: true,

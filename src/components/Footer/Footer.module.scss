@@ -61,6 +61,10 @@
           flex-direction: column;
           gap: 10px;
           a {
+            text-decoration: none;
+            color: $primary;
+            font-size: 19px;
+            font-weight: 500;
             li {
               color: $secondary;
               background-color: rgb(247, 245, 240);

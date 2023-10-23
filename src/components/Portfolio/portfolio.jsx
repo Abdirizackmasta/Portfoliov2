@@ -6,17 +6,24 @@ import css from "./Portfolio.module.scss";
 import { motion } from "framer-motion";
 import {
   fadeIn,
+  footerVariants,
   staggerChildren,
   textVariant,
   textVariant2,
 } from "../../utils/motion";
+import { myProjects } from "../../utils/data";
 const Slick = () => {
   function Arrow(props) {
     const { className, style, onClick } = props;
     return (
       <div
         className={className}
-        style={{ ...style, display: "block", background: "black" }}
+        style={{
+          ...style,
+          display: "block",
+          // background: "wheat",
+          // borderRadius: "10px",
+        }}
         onClick={onClick}
       />
     );
@@ -24,9 +31,9 @@ const Slick = () => {
   var settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 400,
     slidesToShow: 3,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     initialSlide: 0,
     nextArrow: <Arrow />,
     prevArrow: <Arrow />,
@@ -68,68 +75,20 @@ const Slick = () => {
           </p>
         </div>
       </motion.div>
-
-      <Slider {...settings}>
-        <a href="https://abdirizackmasta.github.io/bank-app/">
-          <div className={`${css.project}`}>
-            <h3>Bank App</h3>
-            <img src="./bank.jpg" alt="bank-app picture" />
-
-            {/* <a href="https://abdirizackmasta.github.io/bank-app/">
-              See the live project
-            </a> */}
-          </div>
-        </a>
-        <a href="https://restaurant-v4d.pages.dev//">
-          <div className={`${css.project}`}>
-            <h3>Restaurant website</h3>
-            <img src="./restaurant.jpg" alt="bank-app picture" />
-            {/* <a href="https://abdirizackmasta.github.io/bank-app/">
-              See the live project
-            </a> */}
-          </div>
-        </a>
-        <a href="https://budgetting-app.pages.dev/">
-          <div className={`${css.project}`}>
-            <h3>Budgetting App</h3>
-            <img src="./budgetting.png" alt="budgetting app pic" />
-
-            {/* <a href="https://abdirizackmasta.github.io/bank-app/">
-              See the live project
-            </a> */}
-          </div>
-        </a>
-        <a href="https://real-estate-7p9.pages.dev/">
-          <div className={`${css.project}`}>
-            <h3>Real state</h3>
-            <img src="./realstate.png" alt="real state picture" />
-
-            {/* <a href="https://abdirizackmasta.github.io/bank-app/">
-              See the live project
-            </a> */}
-          </div>
-        </a>
-        <a href="https://abdirizackmasta.github.io/a-ludo-game//">
-          <div className={`${css.project}`}>
-            <h3>Ludo game</h3>
-            <img src="./ludo.png" alt="bank-app picture" />
-
-            {/* <a href="https://abdirizackmasta.github.io/bank-app/">
-              See the live project
-            </a> */}
-          </div>
-        </a>
-        <a href="https://abdirizackmasta.github.io/a-bank-website//">
-          <div className={`${css.project}`}>
-            <h3>Bank website</h3>
-            <img src="./bank-website.png" alt="bank-app picture" />
-
-            {/* <a href="https://abdirizackmasta.github.io/bank-app/">
-              See the live project
-            </a> */}
-          </div>
-        </a>
-      </Slider>
+      <motion.div variants={footerVariants}>
+        <Slider {...settings} className={css.slider}>
+          {myProjects.map((project, i) => {
+            return (
+              <a href={project.link}>
+                <div className={css.project}>
+                  <h3>{project.projectName}</h3>
+                  <img src={project.image} alt="App-image" />
+                </div>
+              </a>
+            );
+          })}
+        </Slider>
+      </motion.div>
     </motion.section>
   );
 };

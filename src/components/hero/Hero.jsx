@@ -65,7 +65,7 @@ const Hero = () => {
             className={css.certificate}
           >
             <img src="./certificate.png" alt="" />
-            <span>CERTIFIED PROFATIONAL</span>
+            <span>CERTIFIED PROFESSIONAL</span>
             <span>FORNTEND DEVELOPER</span>
           </motion.div>
         </div>
