@@ -1,9 +1,9 @@
 import React from "react";
 import { projectExperience, WhatDoIHelp } from "../../utils/data";
-import css from "./Expertise.module.scss";
+import css from "./MyExpertise.module.scss";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer, textVariant } from "../../utils/motion.js";
-const Expertise = () => {
+const MyExpertise = () => {
   return (
     <section className={css.wrapper}>
       <a className="anchor" id="experties"></a>
@@ -60,4 +60,4 @@ const Expertise = () => {
   );
 };
 
-export default Expertise;
+export default MyExpertise;

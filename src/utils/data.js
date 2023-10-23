@@ -56,49 +56,49 @@ export const comments = [
     post: "E-biashara Creative Manager",
     comment:
       "Reliable and wonderful human  to work with. Dedicated and result oriented",
-    img: "./people2.png",
+    img: "./review1.jpg",
   },
   {
     name: "Abdullahi Salah",
     post: " Senior Fullstack engineer, Online",
     comment:
       "An exceptional problem solver with a keen eye for detail. Consistently delivered high-quality front-end solutions under tight deadlines.",
-    img: "./people1.png",
+    img: "./review2.jpeg",
   },
   {
     name: "Lecturer Mohamed",
     post: "Software engineer and lecturer",
     comment:
       "Known for the unwavering commitment to quality, writes clean code, maintainable, and always adhered to best practices.",
-    img: "./people2.png",
+    img: "./review3.jpeg",
   },
   {
     name: "Abdirahman Siyat",
     post: "Sr Product Designer at online ",
     comment:
       "Demonstrated an impressive ability to optimize website performance during his time with us, resulting in faster load times and improved user satisfaction.",
-    img: "./people1.png",
+    img: "./review7.jpg",
   },
   {
     name: "Feisal Mohamud",
     post: "Backend engineer at E-biashara",
     comment:
       "Consistently demonstrated a deep understanding of user-centered design, creating intuitive and visually appealing interfaces.",
-    img: "./people2.png",
+    img: "./review5.webp",
   },
   {
     name: "George Omondi",
     post: "Sr UI/UX designer at Global solutions",
     comment:
       "A true team player who always brought fresh ideas to the table. His UI/UX expertise significantly elevated our projects.",
-    img: "./people1.png",
+    img: "./review6.jpeg",
   },
   {
     name: "Abdi Ali",
     post: " Manager at Global solutions, Nairobi Branch",
     comment:
       "His outstanding communication skills helped bridge the gap between design and development, resulting in seamless and polished interfaces.",
-    img: "./people2.png",
+    img: "./review7.webp",
   },
 ];
 export const myProjects = [
