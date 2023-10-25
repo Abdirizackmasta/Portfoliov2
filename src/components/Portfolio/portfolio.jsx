@@ -67,6 +67,8 @@ const Slick = () => {
       viewport={{ once: false, amount: 0.25 }}
       className="paddings"
     >
+      <a className="anchor" id="portfolio"></a>
+
       <motion.div variants={textVariant(0.4)} className={`  ${css.heading}`}>
         <div>
           <span className="primaryText">My Latest Works</span>

@@ -44,7 +44,7 @@ const Hero = () => {
           />
         </motion.div>
 
-        <a className={css.email} href="abdirizackissack2018@gmail.com">
+        <a className={css.email} href="mailto: abdirizackissack2018@gmail.com">
           abdirizackissack2018@gmail.com
         </a>
 
