@@ -113,6 +113,11 @@ export const myProjects = [
     image: "./bank.jpg",
   },
   {
+    link: "https://hair-revive-center-hospital.netlify.app/",
+    projectName: "Hair Transplant hospital",
+    image: "./hospital.jpg",
+  },
+  {
     link: "https://abdirizackmasta.github.io/a-bank-website//",
     projectName: "Bank website",
     image: "./bank-website.png",
