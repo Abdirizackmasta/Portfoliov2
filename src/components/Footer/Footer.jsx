@@ -37,32 +37,32 @@ const Footer = () => {
             <ul className="flexCenter">
               <li>
                 <a href="https://wa.me/+254719455494">
-                  {/* WhatsApp */}
-                  <WhatsAppIcon />
+                  WhatsApp
+                  {/* <WhatsAppIcon /> */}
                 </a>
               </li>
               <li>
                 <a href="https://www.facebook.com/abdirizack.issacksiyat">
-                  {/* Facebook */}
-                  <FacebookIcon />
+                  Facebook
+                  {/* <FacebookIcon /> */}
                 </a>
               </li>
               <li>
                 <a href="https://www.instagram.com/abdulrazaq_masta/">
-                  <InstagramIcon />
-                  {/* Instagram */}
+                  {/* <InstagramIcon /> */}
+                  Instagram
                 </a>
               </li>
               <li>
                 <a href="https://twitter.com/ibnu_isxaq">
-                  {/* Twitter */}
-                  <TwitterIcon />
+                  Twitter
+                  {/* <TwitterIcon /> */}
                 </a>
               </li>
               <li>
                 <a href="https://github.com/Abdirizackmasta">
-                  {/* Github */}
-                  <GitHubIcon />
+                  Github
+                  {/* <GitHubIcon /> */}
                 </a>
               </li>
             </ul>
