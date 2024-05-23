@@ -21,8 +21,9 @@ const Slick = () => {
         style={{
           ...style,
           display: "block",
-          // background: "wheat",
-          // borderRadius: "10px",
+          background: "wheat",
+          borderRadius: "10px",
+          
         }}
         onClick={onClick}
       />
