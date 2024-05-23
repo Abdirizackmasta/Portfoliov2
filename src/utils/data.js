@@ -103,6 +103,11 @@ export const comments = [
 ];
 export const myProjects = [
   {
+    link: "https://faldefoundation.org/",
+    projectName: "Falde Foundation Website",
+    image: "./falde.png",
+  },
+  {
     link: "https://shoes-shopping-site.netlify.app/",
     projectName: "E-commerce shoes shop",
     image: "./e-commerce.png",
