@@ -14,55 +14,50 @@ const Footer = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`paddings ${css.wrapper}`}
+      className={css.wrapper}
     >
       <motion.div
         variants={footerVariants}
         className={`innerWidth yPaddings flexCenter ${css.container}`}
       >
         <div className={css.left}>
-          <span className="primaryText">
+          <span>
             Let's make something <br />
             amazing together.
           </span>
-          <span className="primaryText">
+          <span>
             Start by
             <a href="mailto:abdirizackissack2018@gmail.com">saying hi</a>
           </span>
         </div>
         {/* center/Social links */}
         <div className={`paddings flexCenter ${css.social}`}>
-          <h1 className="primaryText">Social links</h1>
+          <h1>Find Me in Social Media</h1>
           <div className={css.socialLinks}>
             <ul className="flexCenter">
               <li>
                 <a href="https://wa.me/+254719455494">
-                  WhatsApp
-                  {/* <WhatsAppIcon /> */}
+                  <WhatsAppIcon className={css.icon}/>
                 </a>
               </li>
               <li>
                 <a href="https://www.facebook.com/abdirizack.issacksiyat">
-                  Facebook
-                  {/* <FacebookIcon /> */}
+                  <FacebookIcon className={css.icon}/>
                 </a>
               </li>
               <li>
                 <a href="https://www.instagram.com/abdulrazaq_masta/">
-                  {/* <InstagramIcon /> */}
-                  Instagram
+                  <InstagramIcon className={css.icon}/>
                 </a>
               </li>
               <li>
                 <a href="https://twitter.com/ibnu_isxaq">
-                  Twitter
-                  {/* <TwitterIcon /> */}
+                  <TwitterIcon className={css.icon}/>
                 </a>
               </li>
               <li>
                 <a href="https://github.com/Abdirizackmasta">
-                  Github
-                  {/* <GitHubIcon /> */}
+                  <GitHubIcon className={css.icon}/>
                 </a>
               </li>
             </ul>

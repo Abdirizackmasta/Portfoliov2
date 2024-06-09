@@ -2,6 +2,7 @@
 
 .wrapper {
   background: white;
+  padding: 0 50px;
   .container {
     gap: 2rem;
     @media (max-width: $sm) {
@@ -10,6 +11,8 @@
       align-items: flex-start;
     }
     .left {
+      font-size: 44px;
+      font-weight: 600;
       flex: 3;
       > * {
         display: block;
@@ -54,17 +57,26 @@
     .social {
       display: flex;
       flex-direction: column;
+      h1 {
+        font-size: 44px;
+        font-weight: 600;
+      }
       .socialLinks {
         ul {
           list-style-type: none;
           display: flex;
-          flex-direction: column;
+          justify-content: flex-start;
           gap: 10px;
           a {
             text-decoration: none;
             color: $primary;
-            font-size: 19px;
-            font-weight: 500;
+            border: 3px solid grey;
+            border-radius: 50%;
+            z-index: -2;
+            .icon {
+              font-size: 44px;
+              z-index: 22222;
+            }
             li {
               color: $secondary;
               background-color: rgb(247, 245, 240);
