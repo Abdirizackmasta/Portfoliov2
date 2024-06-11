@@ -79,6 +79,10 @@
     }
 
     .email {
+      &:hover {
+        color: red;
+        transition: all 0.5s;
+      }
       @media (max-width: $sm) {
         position: relative;
         display: none;
