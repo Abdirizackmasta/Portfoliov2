@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
         {/* center/Social links */}
         <div className={`paddings flexCenter ${css.social}`}>
-          <h1>Find Me in Social Media</h1>
+          <h1>My Social Media</h1>
           <div className={css.socialLinks}>
             <ul className="flexCenter">
               <li>
