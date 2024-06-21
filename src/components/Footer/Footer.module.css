@@ -75,10 +75,10 @@
 
 @media(max-width: 768px){
   .upper{
-    font-size: 26px;
+    font-size: 23px;
   }
   .middle div{
-    font-size: 22px;
+    font-size: 18px;
   }
   .middle ul a{
     font-size: 16px;

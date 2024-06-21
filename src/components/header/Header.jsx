@@ -31,7 +31,7 @@ const Header = () => {
         <ul
           className={`flexCenter ${css.menu}`}
           ref={menuRef}
-          // style={getMenuStyles(menuOpened)}
+          style={getMenuStyles(menuOpened)}
         >
           <li>
             <a href="#experties">Services</a>
