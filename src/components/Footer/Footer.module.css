@@ -62,3 +62,13 @@
 .header{
   font-weight: 600;
 }
+.social ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 10px;
+}
+.social ul li a{
+  font-size: 33px;
+  color: #000;
+}
