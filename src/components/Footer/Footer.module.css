@@ -72,3 +72,16 @@
   font-size: 33px;
   color: #000;
 }
+
+@media(max-width: 768px){
+  .upper{
+    font-size: 26px;
+  }
+  .middle div{
+    font-size: 22px;
+  }
+  .middle ul a{
+    font-size: 16px;
+  }
+  
+}
