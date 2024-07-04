@@ -108,6 +108,16 @@ export const myProjects = [
     image: "./falde.png",
   },
   {
+    link: "https://hair-revive-center-hospital.netlify.app/",
+    projectName: "Hair Transplant hospital",
+    image: "./hospital.jpg",
+  },
+  {
+    link: "https://hair-revive-center-hospital.netlify.app/",
+    projectName: "Huduma Travel Agency Website",
+    image: "./hospital.jpg",
+  },
+  {
     link: "https://shoes-shopping-site.netlify.app/",
     projectName: "E-commerce shoes shop",
     image: "./e-commerce.png",
@@ -116,11 +126,6 @@ export const myProjects = [
     link: "https://abdirizackmasta.github.io/bank-app/",
     projectName: "Bank App",
     image: "./bank.jpg",
-  },
-  {
-    link: "https://hair-revive-center-hospital.netlify.app/",
-    projectName: "Hair Transplant hospital",
-    image: "./hospital.jpg",
   },
   {
     link: "https://abdirizackmasta.github.io/a-bank-website//",
