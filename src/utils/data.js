@@ -109,12 +109,12 @@ export const myProjects = [
   },
   {
     link: "https://hair-revive-center-hospital.netlify.app/",
-    projectName: "Hair Transplant hospital",
+    projectName: "Huduma Travel Agency Website",
     image: "./image.png",
   },
   {
     link: "https://huduma-website-two.vercel.app/",
-    projectName: "Huduma Travel Agency Website",
+    projectName: "Hair Transplant hospital",
     image: "./hospital.jpg",
   },
   {
