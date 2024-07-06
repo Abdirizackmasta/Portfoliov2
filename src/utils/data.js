@@ -48,6 +48,12 @@ export const workExp = [
     detail:
       "served as a frontend engineer and helped in designing the user interface part.",
   },
+  {
+    place: "Neptech",
+    tenure: "June 2024 - to-date",
+    role: "software engineer",
+    detail: "currently a software engineer at Neptech",
+  },
 ];
 
 export const comments = [
@@ -115,7 +121,12 @@ export const myProjects = [
   {
     link: "https://huduma-website-two.vercel.app/",
     projectName: "Huduma Travel Agency Website",
-    image: "./image.png",
+    image: "./huduma.png",
+  },
+  {
+    link: "https://sosoyo2.vercel.app/",
+    projectName: "SOSOYO foundation website",
+    image: "./sosoyo.png",
   },
   {
     link: "https://shoes-shopping-site.netlify.app/",

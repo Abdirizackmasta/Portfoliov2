@@ -27,7 +27,7 @@ const Hero = () => {
             className="secondaryText"
             variants={fadeIn("left", "tween", 0.4, 1)}
           >
-            I design beautiful and magical
+            I create, design and build beautiful and magical
             <br />
             things, And I love what i do.
           </motion.span>
@@ -66,7 +66,7 @@ const Hero = () => {
           >
             <img src="./certificate.png" alt="" />
             <span>CERTIFIED PROFESSIONAL</span>
-            <span>FORNTEND DEVELOPER</span>
+            <span>WEB DEVELOPER</span>
           </motion.div>
         </div>
       </motion.div>
