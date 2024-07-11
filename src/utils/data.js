@@ -119,6 +119,11 @@ export const myProjects = [
     image: "./hospital.jpg",
   },
   {
+    link: "https://e-commerce2-silk.vercel.app/",
+    projectName: "e-commerce website(still building it)",
+    image: "./e-commerce2.png",
+  },
+  {
     link: "https://huduma-website-two.vercel.app/",
     projectName: "Huduma Travel Agency Website",
     image: "./huduma.png",
