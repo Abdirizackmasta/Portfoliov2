@@ -79,7 +79,8 @@
     }
 
     .email {
-      &:hover {
+      text-decoration: none;
+      &:active {
         color: red;
         transition: all 0.5s;
       }

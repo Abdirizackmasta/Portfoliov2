@@ -1,0 +1,23 @@
+.learn {
+  //   margin: 40px 0;
+  background: #f1ecec;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  button {
+    padding: 15px 20px;
+    font-size: 20px;
+    border-radius: 6px;
+    border: none;
+    background: rgb(199, 196, 196);
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #0d2f3f;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
