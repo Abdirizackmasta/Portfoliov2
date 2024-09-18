@@ -10,4 +10,4 @@ function Learn() {
     )
 }
 
-export default Learn
+export default Learn;

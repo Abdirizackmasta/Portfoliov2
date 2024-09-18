@@ -1,0 +1,21 @@
+.container {
+  padding: 30px 130px;
+}
+.introdev {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  p {
+    font-size: 55px;
+    font-weight: 700;
+  }
+  img {
+    width: 80%;
+  }
+  .bottomP {
+    font-size: 14px;
+    font-weight: normal;
+    color: grey;
+    margin-top: -10px;
+  }
+}

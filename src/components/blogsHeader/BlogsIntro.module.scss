@@ -1,0 +1,29 @@
+.blogs {
+  a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 1px solid grey;
+    width: max-content;
+    margin: 0 auto;
+    // padding: 20px;
+    div {
+      .topic {
+        font-size: 16px;
+        color: grey;
+      }
+      .primary {
+        font-size: 33px;
+        font-weight: bolder;
+      }
+    }
+    img {
+      height: 200px;
+      width: 200px;
+      object-fit: contain;
+      border-radius: 20px;
+    }
+  }
+}
