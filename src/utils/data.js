@@ -23,7 +23,7 @@ export const projectExperience = [
 ];
 
 export const WhatDoIHelp = [
-  "I am a seasoned frontend engineer specializing in crafting intuitive user interfaces and seamless user experiences. Proficient in HTML, CSS, JavaScript, and React, I bring a wealth of experience in responsive design and performance optimization. With a knack for problem-solving and a passion for staying abreast of the latest industry trends, I excel in collaborating with cross-functional teams to deliver high-quality web applications. Let's work together to create exceptional digital experiences.",
+  "I am a passionate and inventive Full-Stack Software Engineer skilled in both front-end and back-end technologies, including HTML, CSS, JavaScript, React, Tailwind, Node.js, Express, MongoDB, and PostgreSQL. Known for my A+ troubleshooting skills, I excel at resolving complexities and optimizing performance to deliver seamless user experiences. My expertise extends to Microsoft Word and Excel, streamlining data entry, verification, and clerking tasks. Currently pursuing a bachelor's in Information Technology, I approach projects strategically, ensuring maximum user satisfaction and technical efficiency across all layers of development.",
 ];
 
 export const workExp = [
