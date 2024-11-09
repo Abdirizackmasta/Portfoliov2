@@ -14,7 +14,6 @@ const Home = () => {
     <div className={`bg-primary ${css.container}`}>
       <Header />
       <Hero />
-      <Learn />
       <MyExpertise />
       <Works />
       <Portfolio />

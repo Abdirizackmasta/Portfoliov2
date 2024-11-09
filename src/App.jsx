@@ -10,10 +10,10 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/blogs" element={<BlogsPage />}>
+          {/* <Route path="/blogs" element={<BlogsPage />}>
             <Route index element={<BlogsIntro />} />
             <Route path="laziness" element={<Laziness />} />
-          </Route>
+          </Route> */}
         </Routes>
       </Router>
     </div>
