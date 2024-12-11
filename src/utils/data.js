@@ -109,6 +109,11 @@ export const comments = [
 ];
 export const myProjects = [
   {
+    link: "https://www.brandaiddigitalagency.com/",
+    projectName: "Brand aid digital agency",
+    image: "./brand-aid.png",
+  },
+  {
     link: "https://faldefoundation.org/",
     projectName: "Falde Foundation Website",
     image: "./falde.png",
